@@ -11,21 +11,74 @@
             padding: 0;
             background: #f4f4f4;
             color: #333;
-            text-align: center;
-            padding-top: 50px;
         }
-        a {
-            color: #800000; /* Maroon */
+        header {
+            background: #800000; /* Maroon */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav {
+            background: #4B0000; /* Dark maroon */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #800000;
+        }
+        footer {
+            background: #4B0000; /* Dark maroon */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a.link {
+            color: #800000;
             text-decoration: none;
         }
-        a:hover {
+        a.link:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Resources</h1>
-    <p>Useful resources, links, and documents will be available here soon.</p>
-    <p><a href="index.html">Back to Home</a></p>
+    <header>
+        Apoorv Khatri
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>Resources</h1>
+        <h2>Open Source Contribution</h2>
+        <p>
+            <a class="link" href="https://github.com/Apoorv-Khatri/Political-Map" target="_blank">
+                Political Boundaries and Pincodes
+            </a>
+        </p>
+    </main>
+    <footer>
+        &copy; 2025 Apoorv Khatri
+    </footer>
 </body>
 </html>
